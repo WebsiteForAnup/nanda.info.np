@@ -5,16 +5,11 @@ import { TranslateModule } from '@ngx-translate/core';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-
-
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule,
-        TranslateModule.forRoot()
-      ],
+      imports: [RouterTestingModule, TranslateModule.forRoot()],
       declarations: [AppComponent],
-      providers: []
+      providers: [],
     }).compileComponents();
   }));
 

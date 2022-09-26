@@ -1,0 +1,30 @@
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 83, reused 58, downloaded 0, added 0
+ WARN  deprecated multer@1.4.4: Multer 1.x is affected by CVE-2022-24434. This is fixed in v1.4.4-lts.1 which drops support for versions of Node.js before 6. Please upgrade to at least Node.js 6 and version 1.4.4-lts.1 of Multer. If you need support for older versions of Node.js, we are open to accepting patches that would fix the CVE on the main 1.x release line, whilst maintaining compatibility with Node.js 0.10.
+Progress: resolved 357, reused 197, downloaded 0, added 0
+Progress: resolved 626, reused 370, downloaded 0, added 0
+Progress: resolved 1266, reused 762, downloaded 0, added 0
+ WARN  deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+Progress: resolved 1892, reused 1166, downloaded 0, added 0
+Progress: resolved 2198, reused 1353, downloaded 0, added 0
+Packages: +3 -3
++++---
+Progress: resolved 2198, reused 1353, downloaded 0, added 2
+Progress: resolved 2198, reused 1353, downloaded 0, added 3, done
+
+dependencies:
++ @ng-web-apis/common 2.0.1
++ @taiga-ui/i18n 3.3.0
++ @tinkoff/ng-polymorpheus 4.0.7
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @taiga-ui/core
+│ ├── ✕ missing peer @ng-web-apis/mutation-observer@>=2.0.0
+│ └── ✕ missing peer @tinkoff/ng-event-plugins@>=3.0.0
+└─┬ @taiga-ui/kit
+  └── ✕ missing peer @ng-web-apis/mutation-observer@>=2.0.0
+Peer dependencies that should be installed:
+  @ng-web-apis/mutation-observer@>=2.0.0
+  @tinkoff/ng-event-plugins@>=3.0.0
+
