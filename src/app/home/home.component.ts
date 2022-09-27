@@ -14,24 +14,40 @@ export class HomeComponent implements OnInit {
   quote: string | undefined;
   isLoading = false;
   events: Array<myEvent> = [];
+  eventCategories: string[] = [];
+  eventCatalogue: {} = {};
 
   constructor(private quoteService: QuoteService, private eventService: EventsService) {}
 
   ngOnInit() {
     this.isLoading = true;
-    this.quoteService
-      .getRandomQuote({ category: 'dev' })
+    // this.quoteService
+    //   .getRandomQuote({ category: 'dev' })
+    //   .pipe(
+    //     finalize(() => {
+    //       this.isLoading = false;
+    //     })
+    //   )
+    //   .subscribe((quote: string) => {
+    //     this.quote = quote;
+    //   });
+
+    this.eventService
+      .getEvents()
       .pipe(
         finalize(() => {
           this.isLoading = false;
         })
       )
-      .subscribe((quote: string) => {
-        this.quote = quote;
+      .subscribe((dearEvents: myEvent[]) => {
+        this.events = dearEvents.sort((a: myEvent, b: myEvent) => b.time - a.time);
+        this.eventCatalogue = this.events.reduce((groups, item: myEvent) => {
+          const group = groups[item.category] || [];
+          group.push(item);
+          groups[item.category] = group;
+          return groups;
+        }, {});
+        this.eventCategories = Object.keys(this.eventCatalogue);
       });
-
-    this.eventService.getEvents().subscribe((dearEvents: myEvent[]) => {
-      this.events = dearEvents.sort((a: myEvent, b: myEvent) => a.time - b.time);
-    });
   }
 }

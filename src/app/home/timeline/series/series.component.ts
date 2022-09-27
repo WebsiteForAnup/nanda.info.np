@@ -22,4 +22,5 @@ export interface myEvent {
   description: string;
   until?: number;
   display?: boolean;
+  category: string;
 }

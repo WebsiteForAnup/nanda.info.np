@@ -1,8 +1,16 @@
 <div class="container-fluid">
   <div class="jumbotron text-center">
-    <h1></h1>
-    <app-series [events]="events"></app-series>
-    <!-- <app-loader [isLoading]="isLoading"></app-loader>
-    <q [hidden]="isLoading">{{ quote }}</q> -->
+    <mat-tab-group>
+      <ng-container *ngFor="let category of eventCategories">
+        <mat-tab label="{{ category | uppercase }}">
+          <ng-template matTabContent>
+            <app-series [events]="eventCatalogue[category]"></app-series>
+          </ng-template>
+        </mat-tab>
+      </ng-container>
+    </mat-tab-group>
+
+    <app-loader [isLoading]="isLoading"></app-loader>
+    <q [hidden]="!isLoading">"संसारमा सुख रोज्नेले दु:ख किन खोज्थ्यो होला र? भगवान हाँसेको कसले पो देखेको छ र!"</q>
   </div>
 </div>
