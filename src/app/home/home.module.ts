@@ -8,6 +8,8 @@ import { HomeComponent } from './home.component';
 import { TimelineModule } from './timeline/timeline.module';
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProfileComponent } from './profile/profile.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   imports: [
@@ -18,7 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TimelineModule,
     MatTabsModule,
     BrowserAnimationsModule,
+    FontAwesomeModule,
   ],
-  declarations: [HomeComponent],
+  declarations: [HomeComponent, ProfileComponent],
 })
 export class HomeModule {}

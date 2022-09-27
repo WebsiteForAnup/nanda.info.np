@@ -1,6 +1,9 @@
 <div class="container-fluid">
   <div class="jumbotron text-center">
     <mat-tab-group>
+      <mat-tab label="{{ 'About' | uppercase }}">
+        <app-profile></app-profile>
+      </mat-tab>
       <ng-container *ngFor="let category of eventCategories">
         <mat-tab label="{{ category | uppercase }}">
           <ng-template matTabContent>
