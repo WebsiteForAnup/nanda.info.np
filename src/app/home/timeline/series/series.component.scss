@@ -28,7 +28,7 @@
   display: block;
   width: 6px;
   height: 100%;
-  margin-left: -3px;
+  margin-left: +20px;
   background: rgb(80, 80, 80);
   background: -moz-linear-gradient(
     top,
@@ -148,7 +148,7 @@
 }
 
 .direction-r .flag:before {
-  left: -40px;
+  left: -50px;
 }
 
 .direction-l .flag:after {
@@ -224,6 +224,7 @@
 
   .timeline li {
     padding: 2em 0;
+    margin-left: +40px;
   }
 
   .direction-l,
