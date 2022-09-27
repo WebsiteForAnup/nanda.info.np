@@ -1,0 +1,62 @@
+[
+  {
+    "category": "academic",
+    "title": "Masters",
+    "time": 2048,
+    "description": "Masters Degree in Chemistry from Tribhuwan University"
+  },
+  {
+    "category": "academic",
+    "title": "Research",
+    "time": 2059,
+    "description": "Perform research works as water analyst in Phewa Lake, Pokhara <br/> Findings: <ol><li>Arsenic Test contaminated in driking water in different districts</li> <li> Medicinal Values in herbs and their extraction</li> </ol>",
+    "until": 2061
+  },
+  {
+    "title": "Science Teacher",
+    "category": "academic",
+    "time": 2044,
+    "until": 2047,
+    "description": "Taught in different schools of Kaski and Mustang Districts"
+  },
+  {
+    "title": "Assistant Professor",
+    "category": "academic",
+    "description": "Assistant Professor in Tribhuwan University. <ol><li>Eight Years experience as Assistant Campus Chief in Prithvi Narayan Campus</li><li>In 2077, became Executive Campus Chief of PN Campus, TU.</li></ol>",
+    "time": 2068,
+    "until": 2077
+  },
+  {
+    "time": 2036,
+    "until": 2046,
+    "title": "ANNFSU Activist",
+    "category": "political",
+    "description": "Involved in democracy movements in 2036 and 2046 BS (against <strong> Panchayat System</strong).<br/> Committed to All Nepal National Free Student Union (ANNFSU) at that time."
+  },
+  {
+    "time": 2054,
+    "category": "political",
+    "title": "VDC Chairman",
+    "description": "Chairman in Dhital Village Development Committee, Kaski. <br/><strong> Elected in 2054 BS </strong>"
+  },
+  {
+    "time": 2069,
+    "category": "political",
+    "title": "Chairman",
+    "description": "Chairman of Constituency No. 4 Committee Kaski District from CPN-UML"
+  },
+  {
+    "time": 2074,
+    "category": "political",
+    "title": "Member",
+    "description": "Member of Gandaki Province Committee CPN-UML",
+    "display": false
+  },
+  {
+    "title": "Activist",
+    "category": "political",
+    "description": "Involved in democratic movement in 2062/63 BS and arrested by regime of then active King Gyanendra.",
+    "time": 2062,
+    "until": 2063
+  }
+]
