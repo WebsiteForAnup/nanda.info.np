@@ -19219,7 +19219,7 @@
               return new (t || e)();
             }),
             (e.ɵmod = K({ type: e })),
-            (e.ɵinj = $({ imports: [ln.forRoot(n$), ln] })),
+            (e.ɵinj = $({ imports: [ln.forRoot(n$, { useHash: !0 }), ln] })),
             e
           );
         })(),
