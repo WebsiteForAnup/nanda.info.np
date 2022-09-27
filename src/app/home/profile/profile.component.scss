@@ -1,10 +1,16 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 500px;
   margin: auto;
   text-align: center;
   font-family: arial;
+}
+
+.card > img {
+  height: auto;
+  width: auto;
+  display: inline-block;
 }
 
 .title {
