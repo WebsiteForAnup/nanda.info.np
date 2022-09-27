@@ -33,7 +33,11 @@
               "src/manifest.webmanifest",
               "src/assets"
             ],
-            "styles": ["src/main.scss"],
+            "styles": [
+              "src/main.scss",
+              "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
+              "node_modules/@taiga-ui/core/styles/taiga-ui-fonts.less"
+            ],
             "scripts": []
           },
           "configurations": {
