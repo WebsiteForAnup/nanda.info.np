@@ -69,3 +69,9 @@
 3. Chrome DevTools
 4. Schema Markup Generator
 5. SEOquake
+
+# SEO Guides
+
+[Keyword Research](https://backlinko.com/keyword-research)
+[Link Building](https://backlinko.com/link-building)
+[Google Penguin](https://en.wikipedia.org/wiki/Google_Penguin)
