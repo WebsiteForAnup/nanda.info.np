@@ -106,37 +106,37 @@
 
 ## Guidelines
 
-Content
-This page contains 540 words. That's ok.
-35.6% of the text are stop words.
-Keywords used in the page title are also used in the page content. That's good!
-The page contains a listing, which indicates a good text layout.
-6 paragraphs were found on this page.
-The text content is perfect.
-No placeholders texts or images were found.
-There are no duplicates on the site.
-The average number of words per sentence of 14 words is good.
-Content is King
-Frames
-This page does not use a frameset.
-Frames and framesets
-Mobile optimization
-This page loads 23 JavaScript files. This may affect the load time negatively.
-A viewport "width=device-width, initial-scale=1" is provided.
-At least one Apple touch icon is specified.
-Mobile Optimization
-Bold and strong tags
-The usage of strong and bold tags is perfect. We recommend the use of up to 11 tags for this page.
-Strong and Bold Tags
-Image SEO
-5 images have no alt attribute. The content of alt attributes is used by search engines.
-Image SEO
-Social Networks
-There are only a few social sharing widgets on the page. Make your website popular in social networks with social sharing widgets.
-Social Sharing
-Additional markup
-No additional page markup was found.
-HTTPS
-This website uses HTTPS to protect privacy and integrity of the exchanged data.
-All included files are also transferred via HTTPS.
-HTTPS
+    Content
+    This page contains 540 words. That's ok.
+    35.6% of the text are stop words.
+    Keywords used in the page title are also used in the page content. That's good!
+    The page contains a listing, which indicates a good text layout.
+    6 paragraphs were found on this page.
+    The text content is perfect.
+    No placeholders texts or images were found.
+    There are no duplicates on the site.
+    The average number of words per sentence of 14 words is good.
+    Content is King
+    Frames
+    This page does not use a frameset.
+    Frames and framesets
+    Mobile optimization
+    This page loads 23 JavaScript files. This may affect the load time negatively.
+    A viewport "width=device-width, initial-scale=1" is provided.
+    At least one Apple touch icon is specified.
+    Mobile Optimization
+    Bold and strong tags
+    The usage of strong and bold tags is perfect. We recommend the use of up to 11 tags for this page.
+    Strong and Bold Tags
+    Image SEO
+    5 images have no alt attribute. The content of alt attributes is used by search engines.
+    Image SEO
+    Social Networks
+    There are only a few social sharing widgets on the page. Make your website popular in social networks with social sharing widgets.
+    Social Sharing
+    Additional markup
+    No additional page markup was found.
+    HTTPS
+    This website uses HTTPS to protect privacy and integrity of the exchanged data.
+    All included files are also transferred via HTTPS.
+    HTTPS
