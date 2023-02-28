@@ -75,3 +75,31 @@
 [Keyword Research](https://backlinko.com/keyword-research)
 [Link Building](https://backlinko.com/link-building)
 [Google Penguin](https://en.wikipedia.org/wiki/Google_Penguin)
+
+
+## Major Sections to Work With
+    Page Title
+    Meta Description
+    Meta Keywords
+    Google Search Results Preview
+    Keywords Density Test
+    Keywords Test
+    <h1> Heading Status
+    <h2> Heading Status
+    Robots.txt Test
+    Sitemap Test
+    Broken Links Test
+    Underscores in Links Test
+
+    SEO Friendly URL Test
+    Image Alt Test
+    Inline CSS Test
+    Favicon Test
+    Deprecated HTML Tag Checking
+    Noindex Tag Checking
+    Nofollow Tag Checking
+    Domain Authority Checking
+    Page Authority Checking
+    WWW Redirection Test
+    HTML Page Size Test
+    HTML Compression/GZIP Test
